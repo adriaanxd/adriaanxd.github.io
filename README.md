@@ -12,12 +12,12 @@ I'm still in the beginning phase where everything looks unprofessional and weird
 
 ### In the future I'm going to as follows:
 
-- [] Functional aboutMe page
-- [] Functional contact page
-- [] Functional contact-form
-- [] Functional portfolio page
-- [] Project displays
-- [] Working Blog with Facebook-like features (Likes, Comments, Reactions)
+- [ ] Functional aboutMe page
+- [ ] Functional contact page
+- [ ] Functional contact-form
+- [ ] Functional portfolio page
+- [ ] Project displays
+- [ ] Working Blog with Facebook-like features (Likes, Comments, Reactions)
 
 I'll update the website regularly and every change will be documented in order for you to understand what I did / tried to do.
 This ReadMe will also be updated every now and then.
