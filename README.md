@@ -10,7 +10,7 @@ It is also used as a school-project which makes up 40% of my grade in that class
 The goal of this webpage will be a fully functional portfolio / Blog.
 I'm still in the beginning phase where everything looks unprofessional and weird, but with time comes experience.
 
-### In the future I'm going to as follows:
+### In the future I'm going to implement as follows:
 
 - [ ] Functional aboutMe page
 - [ ] Functional contact page
