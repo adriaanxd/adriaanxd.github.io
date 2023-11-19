@@ -1,6 +1,6 @@
 <sup> Created by Adrian, 2023 </sup>
 
-###Project 'Webpage'
+### Project 'Webpage'
 
 This website was created in order to practice my HTML and CSS skills.
 It is also used as a school-project which makes up 40% of my grade in that class.
