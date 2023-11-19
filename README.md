@@ -19,11 +19,6 @@ I'm still in the beginning phase where everything looks unprofessional and weird
 - [ ] Project displays
 - [ ] Working Blog with Facebook-like features (Likes, Comments, Reactions)
 
-- [x] #739
-- [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
-      
-
 I'll update the website regularly and every change will be documented in order for you to understand what I did / tried to do.
 This ReadMe will also be updated every now and then.
 
