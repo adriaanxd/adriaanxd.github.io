@@ -12,7 +12,7 @@ I'm still in the beginning phase where everything looks unprofessional and weird
 
 ### In the future I'm going to as follows:
 
-- [X] Functional aboutMe page
+- [ ] Functional aboutMe page
 - [ ] Functional contact page
 - [ ] Functional contact-form
 - [ ] Functional portfolio page
