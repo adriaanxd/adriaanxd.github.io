@@ -39,9 +39,7 @@ body {
     font-weight: 100
 }
 
-
 .navLinks {
-    position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -55,21 +53,29 @@ body {
     justify-content: space-evenly;
 }
 
-
-.navLinks a {
+.navItem {
     display: flex;
     flex-grow: inherit;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    color: white;
     height: 100px;
-    transition: ease 0.5s;
+    width: 10%;
 
 }
 
-.navLinks :hover {
+.navLinks a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;;
+    color: white;
+    text-decoration: none;
     transition: ease 0.5s;
+}
+
+.navLinks :hover {
+    transition: ease-in-out 0.5s;
     background-color: white;
     color: rgb(0, 16, 31);
 }
