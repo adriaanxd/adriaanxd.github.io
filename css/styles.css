@@ -1,5 +1,80 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.navLinks  , .logoSub, .topBar, .navLinks a, .logoSub h4 {
+    border: 1px solid white;
+}
+
+
+.topBar {
+    position: absolute;
+    display: flex;
+    width: 75%;
+    background-color: rgb(0, 16, 31);
+    border-radius: 0 0 10px 10px;
+}
+
+.thickName {
+    font-weight: 500;
+}
+
+.logoSub {
+    position: relative;
+    display: flex;
+    width: 3rem;
+    flex-wrap: wrap;
+    font-weight: 100;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.logoSub h4 {
+    font-weight: 100
+}
+
+
+.navLinks {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-weight: 300;
+    margin: auto;
+    text-decoration: none;
+    list-style: none;
+    width: 75%;
+    height: 100px;
+    flex-grow: 3;
+    justify-content: space-evenly;
+}
+
+
+.navLinks a {
+    display: flex;
+    flex-grow: inherit;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    height: 100px;
+    transition: ease 0.5s;
+
+}
+
+.navLinks :hover {
+    transition: ease 0.5s;
+    background-color: white;
+    color: rgb(0, 16, 31);
 }
