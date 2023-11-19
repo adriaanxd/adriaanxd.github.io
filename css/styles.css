@@ -12,9 +12,6 @@ body {
     justify-content: center;
 }
 
-.navLinks  , .logoSub, .topBar, .navLinks a, .logoSub h4 {
-    border: 1px solid white;
-}
 
 
 .topBar {
