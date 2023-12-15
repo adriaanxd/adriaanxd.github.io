@@ -1,0 +1,69 @@
+<!--
+    Hier startet die Datei, darunter befindet sich der gesamte Code für die Website.
+    Mit <!DOCTYPE html> wird der genaue Dateityp deklariert (in dem Fall HTML5) damit der Browser erkennt, um welche Art Datei es sich handelt.
+-->
+<!DOCTYPE html>
+<html lang="de">
+<!--
+    Hier im Kopf stehen alle grundlegenden Informationen zu der Website wie z.B.: Der Charaktersatz (UTF-8 im Deutschen), eine Beschreibung, Titel, Stylesheet und noch einige mehr.
+    Das Stylesheet kann man hier entweder direkt über eine externe Datei einbinden, oder den Inhalt der externen datei in das <style>-Tag eintragen.
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Schulprojekt Adrian Leucht, EFS323">
+    <meta name="author" content="Adrian Leucht">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrian Leucht</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <!--
+        Hier wird die Navigationsleiste erstellt.
+    -->
+    <header>
+        <a class="logo" href="../index.html">
+            <img src="../img/logoBlack.png" alt="Logo">
+        </a>
+        <nav>
+            <ul class="navLinks">
+                <li><a href="aboutme.html">Über Mich</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html" class="contact">Kontakt</a>      
+    </header>
+    <!--
+        Hier entsteht der Hauptteil der website
+    -->
+    <main>
+        <div class="mainBox">
+            <h1>
+                Alles mögliche - Der Blog
+            </h1>
+            <div class="styleBlog">
+                <a href="./blogs/factorio.html">
+                    <div class="blogCard">
+                        <h1>Die Faszination von Factorio: Gaming als Kreativitäts- und Teamspiel</h1>
+                    </div>
+                </a>
+                <a href="./blogs/lofi.html">
+                   <div class="blogCard">
+                        <h1>Entspannung pur: Die Magie von Lofi-Musik</h1>
+                    </div> 
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!--
+        Hier entsteht der footer der Website.
+        Hier wird nicht viel stehen außer noch einmal der Ersteller der Website (in dem Fall logischerweise ich)
+    -->
+
+    <footer>
+        <h4 class="madeBy">
+            Made by Adrian Leucht - 2023
+        </h4>
+    </footer>
+</body>
+</html>

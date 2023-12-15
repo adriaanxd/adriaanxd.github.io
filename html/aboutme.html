@@ -1,24 +1,117 @@
+<!--
+    Hier startet die Datei, darunter befindet sich der gesamte Code für die Website.
+    Mit <!DOCTYPE html> wird der genaue Dateityp deklariert (in dem Fall HTML5) damit der Browser erkennt, um welche Art Datei es sich handelt.
+-->
 <!DOCTYPE html>
 <html lang="de">
+<!--
+    Hier im Kopf stehen alle grundlegenden Informationen zu der Website wie z.B.: Der Charaktersatz (UTF-8 im Deutschen), eine Beschreibung, Titel, Stylesheet und noch einige mehr.
+    Das Stylesheet kann man hier entweder direkt über eine externe Datei einbinden, oder den Inhalt der externen datei in das <style>-Tag eintragen.
+-->
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Schulprojekt Adrian Leucht, EFS323">
+    <meta name="author" content="Adrian Leucht">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adrian Leucht - Portfolio</title>
+    <title>Adrian Leucht</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-
 <body>
-    <div class="topBar">
-        <a  class="logoSub" href="../index.html">
-            <h4>
-                Adrian <span class = "thickName">Daniel</span> Leucht
-            </h4>
+    <!--
+        Hier wird die Navigationsleiste erstellt.
+    -->
+    <header>
+        <a class="logo" href="../index.html">
+            <img src="../img/logoBlack.png" alt="Logo">
         </a>
-        <ul class = "navLinks">
-            <li class ="navItem"><a href="#">Über Mich</a></li>
-            <li class ="navItem"><a href="contact.html">Kontakt</a></li>
-            <li class ="navItem"><a href="portfolio.html">Portfolio</a></li>
-        </ul>
-    </div>
+        <nav>
+            <ul class="navLinks">
+                <li><a href="#">Über Mich</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <a href="contact.html" class="contact">Kontakt</a>  
+    </header>
+    <!--
+        Hier entsteht der Hauptteil der website
+    -->
+    <main>
+        <div class="mainBox">
+            <h1>
+                Hi!
+            </h1>
+            <p>
+                Mein Name ist Adrian Leucht. Geboren wurde ich am 18.07.2001 in Vilsbiburg in Bayern, quasi im Ausland. 
+                <br><br>
+                <strong>Kurz zu mir</strong>: Ich bin 22 Jahre alt, habe langes Haar und bin Brillenträger. Meine Freizeit verbringe ich derzeit hauptsächlich vor dem 
+                Rechner, da ich mich dort aktuell am wohlsten fühle. Daran spiele ich verschiedenste Spiele mit meinen Freunden und mache mir 
+                eine lustige Zeit. Wenn ich nicht am Rechner sitze, schlafe oder arbeite ich.
+                <br><br>
+                <strong>Zu meiner Arbeit</strong>: Ich befinde mich aktuell in einer Ausbildung zum Fachinformatiker für Systemintegration bei der Pumpenfabrik 
+                Wangen im gleichnamigen Ort Wangen im Allgäu. Dies ist mein erstes Lehrjahr in dieser Ausbildung, jedoch habe ich zuvor 
+                schon eine Ausbildung zur Fachkraft für Metalltechnik abgeschlossen
+                <br><br>
+                <strong>Wie kam es dazu?</strong><br>
+                Bis ich diese Ausbildung fand war es ein holpriger Weg für mich. Hier eine kurze zusammenfassung was ich tat, bevor ich die Arbeit begann:
+            </p>
+            
+           <p><strong>Schulischer Werdegang:</strong></p>
+           <table class = "cvTable">
+               <tr>
+                   <td>09/2007 - 07/2011</td>
+                   <td class = "indentRow" >Grund- und Mittelschule Gerzen</td>
+               </tr>
+               <tr>
+                   <td>09/2011 - 02/2015</td>
+                   <td class = "indentRow">Maximilian- von- Montgelas Gymnasium Vilsbiburg</td>
+               </tr>
+               <tr>
+                   <td>02/2015 - 07/2019 </td>
+                   <td class="indentRow">Staatliche Realschule Vilsbiburg</td>
+                       </tr>
+                       <tr>
+                           <td>09/2019 - 02/2020</td>
+                           <td class="indentRow">Berufsfachschule für Informatik Landshut</td>
+                       </tr>
+                       <tr>
+                           <td>09/2021 - 07/2022</td>
+                           <td class="indentRow">Berufliches Schulzentrum Wangen</td>
+                       </tr>
+                       <tr>
+                    <td>09/2022 - 06/2023 </td>
+                    <td class="indentRow">Geschwister- Scholl- Schule Leutkirch</td>
+                 </tr>
+                <tr>
+                    <td>ab 09/2023 </td>
+                    <td class="indentRow">Elektronikschule Tettnang</td>
+                </tr>
+            </table>
+
+            <p><strong>Beruflicher Werdegang:</strong></p>
+            <table class ="cvTable">
+                <tr>
+                    <td>10/2017</td>
+                    <td class="indentRow">Praktikum zum Einzelhandelskaufmann bei EDEKA</td>
+                </tr>
+                <tr>
+                    <td>09/2021 - 06/2023</td>
+                    <td class="indentRow">Ausbildung zur Fachkraft für Metalltechnik</td>
+                </tr>
+                <tr>
+                    <td>ab 09/2023</td>
+                    <td class="indentRow">Ausbildung zum Fachinformatiker für Systemintegration</td>
+                </tr>
+            </table>
+        </div>
+    </main>
+            <!--
+                Hier entsteht der footer der Website.
+                Hier wird nicht viel stehen außer noch einmal der Ersteller der Website (in dem Fall logischerweise ich)
+            -->
+            <footer>
+                <h4 class="madeBy">
+            Made by Adrian Leucht - 2023
+        </h4>
+    </footer>
 </body>
 </html>

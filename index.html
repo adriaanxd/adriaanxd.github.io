@@ -1,26 +1,89 @@
+<!--
+    Hier startet die Datei, darunter befindet sich der gesamte Code für die Website.
+    Mit <!DOCTYPE html> wird der genaue Dateityp deklariert (in dem Fall HTML5) damit der Browser erkennt, um welche Art Datei es sich handelt.
+-->
 <!DOCTYPE html>
 <html lang="de">
-    <!--Kopf der Website, beinhaltet Charaktertyp, Titel, Viewport (Inhalt, welcher im Fenster gesehen werden kann) und Style-->
+<!--
+    Hier im Kopf stehen alle grundlegenden Informationen zu der Website wie z.B.: Der Charaktersatz (UTF-8 im Deutschen), eine Beschreibung, Titel, Stylesheet und noch einige mehr.
+    Das Stylesheet kann man hier entweder direkt über eine externe Datei einbinden, oder den Inhalt der externen datei in das <style>-Tag eintragen.
+-->
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Schulprojekt Adrian Leucht, EFS323">
+    <meta name="author" content="Adrian Leucht">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adrian Leucht - Portfolio</title>
+    <title>Adrian Leucht</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
-    <!--Körper der Website, beinhaltet alles, was auf der Internetseite angezeigt werden soll. Dieser Kommentar fällt für die restlichen Seiten weg-->
 <body>
-    <div class="topBar">
-        <a  class="logoSub" href="#">
-            <h4>
-                Adrian <span class = "thickName">Daniel</span> Leucht
-            </h4>
+    <!--
+        Hier wird die Navigationsleiste erstellt.
+    -->
+    <header>
+        <a class="logo" href="#">
+            <img src="img/logoBlack.png" alt="Logo">
         </a>
-        <ul class = "navLinks">
-            <li class ="navItem"><a href="html/aboutme.html">Über Mich</a></li>
-            <li class ="navItem"><a href="html/contact.html">Kontakt</a></li>
-            <li class ="navItem"><a href="html/portfolio.html">Portfolio</a></li>
-        </ul>
-    </div>
+        <nav>
+            <ul class="navLinks">
+                <li><a href="html/aboutme.html">Über Mich</a></li>
+                <li><a href="html/blog.html">Blog</a></li>
+            </ul>
+        </nav>
+        <a href="./html/contact.html" class="contact">Kontakt</a>    
+    </header>
+    <!--
+        Hier entsteht der Hauptteil der website
+    -->
+    <main>
+        <div class="mainBox">
+            <h1>
+                Hallo, ich bin Adrian und dies ist mein Projekt.
+            </h1>
+            <br>
+            <h4>
+                Während der Ausbildung wird diese Website mit allen neu gelernten Informationen erweitert und vervollständigt.
+            </h4>
+            <p>
+                Aber was ist nun das genaue Ziel der Website? Das werde ich hier in Fülle erklären. <br>
+
+                Seit Anfang der Ausbildung haben wir jeden Freitag einen Berufsfachlich gebundenen Unterricht. In diesem 
+                wird uns die Grundlage der Websiteentwicklung näher gebracht. Angefangen mit HTML und CSS haben wir 
+                uns anhand verschiedener Übungen erste Erfahrungen aneignen können. <br> <br>
+
+                Nun haben wir die Aufgabe bekommen, eine Website als Projekt zu erstellen, in der wir über uns erzählen
+                und unser Wissen sinngemäß einsetzen. <br><br>
+
+                Das werde ich auf dieser Seite tun. Nun denn, der Aufbau ist sehr simpel gehalten:
+            </p>
+            <ul>
+                <li>Oben links befindet sich mein Name. Dieser ist in Wahrheit ein Bild und fungiert als "Homebutton", um auf die Hauptseite zurückzukehren.</li>
+                <li>Oben rechts findet man verschiedene Links, welche zu unterschiedlichen Seiten führen:</li>
+                <li><strong>Über Mich</strong>: Hier erfahrt ihr mehr zu meiner Person und dem, was ich alles mache. </li>
+                <li><strong>Blog</strong>: Hier wird in Zukunft ein voll funktionsfähiger, sich an Facebook orientierender Blog entstehen.</li>
+                <li><strong>Kontakt</strong>: Hier könnt ihr per Formular direkten Kontakt zu mir aufnehmen.</li>
+            </ul>
+
+            <p>
+                Jetzt, wo die Grundfunktionen klar sind, gibt es nicht viel mehr zu erzählen.  Nun ist es ander Zeit, sich die Seite anzuschauen und am Ende ebenfalls zu bewerten.
+
+                <br><br>
+                Vielen Dank und Liebe Grüße
+                <br><br>
+                - Adrian
+            </p>
+        </div>
+    </main>
+
+    <!--
+        Hier entsteht der footer der Website.
+        Hier wird nicht viel stehen außer noch einmal der Ersteller der Website (in dem Fall logischerweise ich)
+    -->
+
+    <footer>
+        <h4 class="madeBy">
+            Made by Adrian Leucht - 2023
+        </h4>
+    </footer>
 </body>
 </html>
